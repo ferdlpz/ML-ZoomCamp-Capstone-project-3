@@ -1,0 +1,14 @@
+[project]
+name = "ml-zoomcamp-capstone-project-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.2",
+    "gunicorn>=25.0.1",
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "scikit-learn==1.7.2",
+    "xgboost>=3.1.3",
+]
