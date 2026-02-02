@@ -58,7 +58,6 @@ def clean_df(df_raw):
 model_file = 'model_n_estimators=500_max_depth=6_learning_rate=0.01.bin'
 
 import os
-os.chdir('/Users/fdl/Repos/ML-ZoomCamp-Capstone-project-3/')
 
 with open(model_file, 'rb') as f_in:
     model = pickle.load(f_in)
